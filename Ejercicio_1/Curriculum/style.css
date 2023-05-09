@@ -1,0 +1,30 @@
+body {
+  background-color: #D6C47D;
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  color: #5C551F;
+  text-decoration: none;
+}
+a:hover {
+  color: #45311F;
+}
+a:visited {
+  color: #694A2F;
+}
+a:active {
+  color: #5C551F;
+}
+
+h1, h3, h5, p {
+  color: #45311F;
+  text-align: center;
+}
+
+button {
+  color: #D6C47D;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,42 @@
+$background: #D6C47D;
+
+$link-normal: #5C551F;
+$link-hover: #45311F;
+$link-visited: #694A2F;
+$link-active: #5C551F;
+
+$headerscolor: #45311F;
+$textAlignment: center;
+
+$mainWidth: 100vw;
+$mainHeight: 100vh;
+
+
+body{
+    background-color: $background;
+    width: $mainWidth;
+    height: $mainHeight;
+}
+
+a {
+    color: $link-normal;
+    text-decoration: none;
+    &:hover {
+        color: $link-hover;
+    }
+    &:visited {
+        color: $link-visited;
+    }
+    &:active {
+        color: $link-active;
+    }
+}
+
+h1 , h3, h5 , p {
+    color: $headerscolor;
+    text-align: $textAlignment;
+}
+
+button{
+    color: $background;
+}
